@@ -4,5 +4,49 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: #ffecd1;
 }
+
+/*********** Navigation ***********/
+.logo {
+    color: black(199, 194, 194);
+    /* border: solid red 1.5px; */
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.logo a {
+    color: black;
+  }
+
+  .logo a,
+  ul a {
+    text-decoration: none;
+    letter-spacing: 0.4em;
+  }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: orangered solid 2px;
+    /* border: solid red 1.5px; */
+  }
+
+  .navLinks {
+    /* border: solid red 1.5px; */
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+  
+  ul a {
+    display: block;
+    padding: 1em;
+    color: black;
+  }
+  
+  ul a:hover {
+    background-color: mediumaquamarine;
+  }
