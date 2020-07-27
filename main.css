@@ -50,3 +50,12 @@ body {
   ul a:hover {
     background-color: mediumaquamarine;
   }
+
+  /*********** Project Cards ***********/
+#projectsPage {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1em;
+    justify-content: space-evenly;
+    border: solid blueviolet 1.5px;
+  }
